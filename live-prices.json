@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "updatedAt": null,
+  "source": "Yahoo Finance",
+  "note": "Workflow ilk kez çalıştıktan sonra fiyatlar burada oluşur.",
+  "prices": {}
+}

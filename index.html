@@ -29,14 +29,18 @@
         <p class="eyebrow">Ücretsiz finans takip paneli</p>
         <h2>Hisseleri ve fonları tek ekranda takip et.</h2>
         <p class="hero-text">
-          Bu sürüm örnek verilerle çalışır. Daha sonra canlı/gecikmeli BIST verisi,
-          fon portföy dağılımları ve kendi Excel listen bağlanabilir.
+          BIST fiyatları ücretsiz gecikmeli veri kaynağından otomatik güncellenir.
+          Fiyat verileri yatırım kararı için tek başına kullanılmamalıdır.
         </p>
+        <div class="status-row">
+          <span id="dataStatus" class="status-pill">Veri yükleniyor…</span>
+          <span class="muted">Kaynak: Yahoo Finance • gecikmeli veri</span>
+        </div>
       </div>
       <div class="hero-card">
         <span>Takipte</span>
         <strong id="watchCount">6 hisse</strong>
-        <small>Son güncelleme: <span id="lastUpdate">--</span></small>
+        <small>Veri zamanı: <span id="lastUpdate">--</span></small>
       </div>
     </section>
 
@@ -54,7 +58,7 @@
       <div class="stat-card">
         <span>Toplam portföy</span>
         <strong id="portfolioTotal">₺0</strong>
-        <small>Örnek hesaplama</small>
+        <small>Lot × güncel fiyat</small>
       </div>
     </section>
 
@@ -87,11 +91,11 @@
       <div class="section-title">
         <div>
           <p class="eyebrow">Fon takibi</p>
-          <h3>Örnek Fon Dağılımları</h3>
+          <h3>Fon Dağılımları</h3>
         </div>
       </div>
-
       <div class="fund-grid" id="fundGrid"></div>
+      <p class="muted footnote">Fon dağılımları şu anda örnek olarak tutuluyor; sonraki aşamada KAP/TEFAS verisine bağlanabilir.</p>
     </section>
 
     <section id="portfoy" class="panel">
@@ -102,17 +106,13 @@
         </div>
       </div>
       <p class="muted">
-        Bir sonraki aşamada buraya Excel dosyandaki hisse, lot ve maliyet bilgilerini bağlayabiliriz.
+        Lot adetlerini <code>app.js</code> içinden değiştirebilirsin. Sonraki aşamada Excel/CSV yükleme ekleyebiliriz.
       </p>
-      <div class="progress">
-        <div class="progress-bar" style="width: 72%"></div>
-      </div>
-      <small class="muted">Demo görünüm</small>
     </section>
   </main>
 
   <footer>
-    <p>Borsa Keşfeti • Demo sürüm • Yatırım tavsiyesi değildir.</p>
+    <p>Borsa Keşfeti • Ücretsiz demo • Yatırım tavsiyesi değildir.</p>
   </footer>
 
   <script src="app.js"></script>

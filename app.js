@@ -72,6 +72,28 @@ function updateStats(){
   }
 
   const total = stocks.reduce((sum,s)=>sum+(s.price == null ? 0 : s.price*s.lot),0);
+  const previousTotal = stocks.reduce((sum, s) => {
+  if (s.price == null || s.changePct == null) return sum;
+  const previousPrice = s.price / (1 + s.changePct / 100);
+  return sum + previousPrice * s.lot;
+}, 0);
+
+const portfolioChange =
+  previousTotal > 0 ? ((total / previousTotal) - 1) * 100 : null;
+
+const portfolioChangeEl = document.getElementById("portfolioChange");
+
+if (portfolioChangeEl) {
+  portfolioChangeEl.textContent =
+    portfolioChange == null ? "—" : pct(portfolioChange);
+
+  portfolioChangeEl.className =
+    portfolioChange == null
+      ? "neutral"
+      : portfolioChange >= 0
+        ? "positive"
+        : "negative";
+}
   document.getElementById("portfolioTotal").textContent = tl.format(total);
   document.getElementById("watchCount").textContent = `${stocks.length} hisse`;
 }

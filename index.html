@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Borsa Keşfeti</title>
+  <meta name="description" content="BIST hisseleri, fon dağılımları ve portföy takibi için ücretsiz finans paneli." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">BK</div>
+      <div>
+        <h1>Borsa Keşfeti</h1>
+        <span>BIST • Fon • Takas • Portföy</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#hisseler">Hisseler</a>
+      <a href="#fonlar">Fonlar</a>
+      <a href="#portfoy">Portföy</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Ücretsiz finans takip paneli</p>
+        <h2>Hisseleri ve fonları tek ekranda takip et.</h2>
+        <p class="hero-text">
+          Bu sürüm örnek verilerle çalışır. Daha sonra canlı/gecikmeli BIST verisi,
+          fon portföy dağılımları ve kendi Excel listen bağlanabilir.
+        </p>
+      </div>
+      <div class="hero-card">
+        <span>Takipte</span>
+        <strong id="watchCount">6 hisse</strong>
+        <small>Son güncelleme: <span id="lastUpdate">--</span></small>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span>En güçlü</span>
+        <strong id="bestStock">-</strong>
+        <small id="bestChange">-</small>
+      </div>
+      <div class="stat-card">
+        <span>En zayıf</span>
+        <strong id="worstStock">-</strong>
+        <small id="worstChange">-</small>
+      </div>
+      <div class="stat-card">
+        <span>Toplam portföy</span>
+        <strong id="portfolioTotal">₺0</strong>
+        <small>Örnek hesaplama</small>
+      </div>
+    </section>
+
+    <section id="hisseler" class="panel">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">Piyasa</p>
+          <h3>Takip Listesi</h3>
+        </div>
+        <input id="searchInput" type="search" placeholder="Hisse ara..." />
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Hisse</th>
+              <th>Fiyat</th>
+              <th>Günlük</th>
+              <th>Lot</th>
+              <th>Tutar</th>
+            </tr>
+          </thead>
+          <tbody id="stockTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="fonlar" class="panel">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">Fon takibi</p>
+          <h3>Örnek Fon Dağılımları</h3>
+        </div>
+      </div>
+
+      <div class="fund-grid" id="fundGrid"></div>
+    </section>
+
+    <section id="portfoy" class="panel">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">Kendi listen</p>
+          <h3>Portföy Özeti</h3>
+        </div>
+      </div>
+      <p class="muted">
+        Bir sonraki aşamada buraya Excel dosyandaki hisse, lot ve maliyet bilgilerini bağlayabiliriz.
+      </p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 72%"></div>
+      </div>
+      <small class="muted">Demo görünüm</small>
+    </section>
+  </main>
+
+  <footer>
+    <p>Borsa Keşfeti • Demo sürüm • Yatırım tavsiyesi değildir.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

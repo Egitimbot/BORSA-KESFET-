@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import time
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents
 symbols = json.loads((ROOT / "stocks.json").read_text(encoding="utf-8"))["symbols"]
 
 prices = {}

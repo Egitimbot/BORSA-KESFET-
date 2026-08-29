@@ -57,7 +57,7 @@ out = {
     "errors": errors,
 }
 
-(ROOT / "data" / "live-prices.json").write_text(
+(ROOT / "live-prices.json").write_text(
     json.dumps(out, ensure_ascii=False, indent=2),
     encoding="utf-8",
 )

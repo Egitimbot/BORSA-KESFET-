@@ -1,7 +1,50 @@
 {
-  "ok": false,
-  "updatedAt": null,
+  "ok": true,
+  "updatedAt": "2026-08-29T10:52:02.024914+00:00",
   "source": "Yahoo Finance",
-  "note": "Workflow ilk kez çalıştıktan sonra fiyatlar burada oluşur.",
-  "prices": {}
+  "prices": {
+    "ODINE": {
+      "price": 1830.0,
+      "previousClose": 1869.0,
+      "changePct": -2.0867,
+      "currency": "TRY",
+      "marketTime": "2026-08-28T15:09:37+00:00"
+    },
+    "THYAO": {
+      "price": 307.5,
+      "previousClose": 307.25,
+      "changePct": 0.0814,
+      "currency": "TRY",
+      "marketTime": "2026-08-28T15:10:00+00:00"
+    },
+    "GUNDG": {
+      "price": 1700.0,
+      "previousClose": 1807.0,
+      "changePct": -5.9214,
+      "currency": "TRY",
+      "marketTime": "2026-08-28T15:09:19+00:00"
+    },
+    "KTLEV": {
+      "price": 69.0,
+      "previousClose": 67.0,
+      "changePct": 2.9851,
+      "currency": "TRY",
+      "marketTime": "2026-08-28T15:09:41+00:00"
+    },
+    "PASEU": {
+      "price": 268.0,
+      "previousClose": 258.0,
+      "changePct": 3.876,
+      "currency": "TRY",
+      "marketTime": "2026-08-28T15:09:51+00:00"
+    },
+    "AKBNK": {
+      "price": 73.2,
+      "previousClose": 72.85,
+      "changePct": 0.4804,
+      "currency": "TRY",
+      "marketTime": "2026-08-28T15:09:51+00:00"
+    }
+  },
+  "errors": {}
 }

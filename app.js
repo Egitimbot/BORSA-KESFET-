@@ -68,7 +68,7 @@ function updateStats(){
 async function loadLivePrices(){
   const status = document.getElementById("dataStatus");
   try {
-    const response = await fetch(`data/live-prices.json?t=${Date.now()}`, {cache:"no-store"});
+    const response = await fetch(`/live-prices.json?t=${Date.now()}`, {cache:"no-store"});
     if (!response.ok) throw new Error("Veri dosyası okunamadı");
     const payload = await response.json();
 

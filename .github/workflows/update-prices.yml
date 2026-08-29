@@ -1,0 +1,37 @@
+name: BIST fiyatlarini guncelle
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 7-15 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fiyatlari cek
+        run: python update_prices.py
+
+      - name: Degisiklik varsa kaydet
+        run: |
+          git config user.name "borsa-kesfeti-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add live-prices.json
+          if git diff --cached --quiet; then
+            echo "Degisiklik yok."
+          else
+            git commit -m "Fiyatlari guncelle"
+            git push
+          fi

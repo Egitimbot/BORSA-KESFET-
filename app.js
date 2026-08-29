@@ -43,7 +43,8 @@ function renderStocks(filter=""){
         <td>${s.price == null ? "—" : tl.format(s.price)}</td>
         <td class="${s.changePct == null ? "neutral" : s.changePct >= 0 ? "positive":"negative"}">${pct(s.changePct)}</td>
         <td>${s.lot.toLocaleString("tr-TR")}</td>
-        <td>${amount == null ? "—" : tl.format(amount)}</td>`;
+        <td>${amount == null ? "—" : tl.format(amount)}</td>
+<td>${amount == null ? "—" : ((amount / stocks.reduce((sum, x) => sum + (x.price == null ? 0 : x.price * x.lot), 0)) * 100).toFixed(2) + "%"}</td>`;
       tbody.appendChild(tr);
     });
 }

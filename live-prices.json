@@ -1,119 +1,119 @@
 {
   "ok": true,
-  "updatedAt": "2026-09-10T16:22:26.750371+00:00",
+  "updatedAt": "2026-09-11T11:58:47.862917+00:00",
   "source": "Yahoo Finance",
   "prices": {
     "OZATD": {
-      "price": 4450.0,
-      "previousClose": 4522.5,
-      "changePct": -1.6031,
+      "price": 4395.0,
+      "previousClose": 4450.0,
+      "changePct": -1.236,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:05:16+00:00"
+      "marketTime": "2026-09-11T11:43:34+00:00"
     },
     "DSTKF": {
-      "price": 2410.0,
-      "previousClose": 2470.0,
-      "changePct": -2.4291,
+      "price": 2424.0,
+      "previousClose": 2410.0,
+      "changePct": 0.5809,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:56+00:00"
+      "marketTime": "2026-09-11T11:43:30+00:00"
     },
     "TEHOL": {
-      "price": 48.78,
-      "previousClose": 47.0,
-      "changePct": 3.7872,
+      "price": 49.64,
+      "previousClose": 48.78,
+      "changePct": 1.763,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:34+00:00"
+      "marketTime": "2026-09-11T11:43:33+00:00"
     },
     "PEKGY": {
-      "price": 11.93,
-      "previousClose": 10.85,
-      "changePct": 9.9539,
+      "price": 12.58,
+      "previousClose": 11.93,
+      "changePct": 5.4484,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:59+00:00"
+      "marketTime": "2026-09-11T11:43:40+00:00"
     },
     "TRHOL": {
-      "price": 3950.0,
-      "previousClose": 3850.0,
-      "changePct": 2.5974,
+      "price": 3925.0,
+      "previousClose": 3950.0,
+      "changePct": -0.6329,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:20+00:00"
+      "marketTime": "2026-09-11T11:43:12+00:00"
     },
     "TERA": {
       "price": 195.8,
-      "previousClose": 195.6,
-      "changePct": 0.1022,
+      "previousClose": 195.8,
+      "changePct": 0.0,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:46+00:00"
+      "marketTime": "2026-09-11T11:43:33+00:00"
     },
     "SELEC": {
-      "price": 400.0,
-      "previousClose": 390.0,
-      "changePct": 2.5641,
+      "price": 360.0,
+      "previousClose": 400.0,
+      "changePct": -10.0,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:55+00:00"
+      "marketTime": "2026-09-11T11:43:30+00:00"
     },
     "ANELE": {
-      "price": 197.4,
-      "previousClose": 219.3,
-      "changePct": -9.9863,
+      "price": 177.7,
+      "previousClose": 197.4,
+      "changePct": -9.9797,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:08:02+00:00"
+      "marketTime": "2026-09-11T11:41:56+00:00"
     },
     "BIGEN": {
-      "price": 135.1,
-      "previousClose": 122.9,
-      "changePct": 9.9268,
+      "price": 141.9,
+      "previousClose": 135.1,
+      "changePct": 5.0333,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:05+00:00"
+      "marketTime": "2026-09-11T11:43:41+00:00"
     },
     "ALKLC": {
-      "price": 475.5,
-      "previousClose": 475.0,
-      "changePct": 0.1053,
+      "price": 479.0,
+      "previousClose": 475.5,
+      "changePct": 0.7361,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:55+00:00"
+      "marketTime": "2026-09-11T11:43:23+00:00"
     },
     "SVGYO": {
-      "price": 15.71,
-      "previousClose": 15.63,
-      "changePct": 0.5118,
+      "price": 15.9,
+      "previousClose": 15.71,
+      "changePct": 1.2094,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:59+00:00"
+      "marketTime": "2026-09-11T11:43:37+00:00"
     },
     "EUPWR": {
-      "price": 71.65,
-      "previousClose": 75.6,
-      "changePct": -5.2249,
+      "price": 71.45,
+      "previousClose": 71.65,
+      "changePct": -0.2791,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:09+00:00"
+      "marketTime": "2026-09-11T11:43:32+00:00"
     },
     "TMPOL": {
-      "price": 318.0,
-      "previousClose": 317.25,
-      "changePct": 0.2364,
+      "price": 302.75,
+      "previousClose": 318.0,
+      "changePct": -4.7956,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:05:15+00:00"
+      "marketTime": "2026-09-11T11:43:37+00:00"
     },
     "YKBNK": {
-      "price": 36.2,
-      "previousClose": 36.6,
-      "changePct": -1.0929,
+      "price": 36.66,
+      "previousClose": 36.2,
+      "changePct": 1.2707,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:51+00:00"
+      "marketTime": "2026-09-11T11:43:43+00:00"
     },
     "ISVEA": {
-      "price": 92.15,
-      "previousClose": 90.0,
-      "changePct": 2.3889,
+      "price": 89.35,
+      "previousClose": 92.15,
+      "changePct": -3.0385,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:36+00:00"
+      "marketTime": "2026-09-11T11:43:37+00:00"
     },
     "KARCL": {
-      "price": 202.0,
-      "previousClose": 195.0,
-      "changePct": 3.5897,
+      "price": 197.4,
+      "previousClose": 202.0,
+      "changePct": -2.2772,
       "currency": "TRY",
-      "marketTime": "2026-09-10T15:09:50+00:00"
+      "marketTime": "2026-09-11T11:43:43+00:00"
     }
   },
   "errors": {}

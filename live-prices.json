@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-10-09T14:03:56.973887+00:00",
+  "updatedAt": "2026-10-09T19:31:50.492671+00:00",
   "source": "Yahoo Finance",
   "prices": {
     "OZATD": {
@@ -8,112 +8,112 @@
       "previousClose": 834.5,
       "changePct": -9.9461,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:28:20+00:00"
+      "marketTime": "2026-10-09T14:39:16+00:00"
     },
     "DSTKF": {
       "price": 410.5,
       "previousClose": 456.0,
       "changePct": -9.9781,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:40:47+00:00"
+      "marketTime": "2026-10-09T15:05:14+00:00"
     },
     "TEHOL": {
       "price": 7.22,
       "previousClose": 8.02,
       "changePct": -9.9751,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:47:03+00:00"
+      "marketTime": "2026-10-09T15:08:01+00:00"
     },
     "PEKGY": {
       "price": 1.79,
       "previousClose": 1.98,
       "changePct": -9.596,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:43+00:00"
+      "marketTime": "2026-10-09T15:09:39+00:00"
     },
     "TRHOL": {
       "price": 678.5,
       "previousClose": 753.5,
       "changePct": -9.9536,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:33+00:00"
+      "marketTime": "2026-10-09T14:53:37+00:00"
     },
     "TERA": {
       "price": 37.54,
       "previousClose": 41.7,
       "changePct": -9.976,
       "currency": "TRY",
-      "marketTime": "2026-10-09T10:55:08+00:00"
+      "marketTime": "2026-10-09T15:08:01+00:00"
     },
     "SELEC": {
       "price": 81.6,
       "previousClose": 74.2,
       "changePct": 9.973,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:36+00:00"
+      "marketTime": "2026-10-09T15:08:02+00:00"
     },
     "ANELE": {
-      "price": 23.48,
+      "price": 21.72,
       "previousClose": 24.12,
-      "changePct": -2.6534,
+      "changePct": -9.9502,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:51+00:00"
+      "marketTime": "2026-10-09T15:09:59+00:00"
     },
     "BIGEN": {
       "price": 23.66,
       "previousClose": 26.28,
       "changePct": -9.9696,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:43:04+00:00"
+      "marketTime": "2026-10-09T15:05:16+00:00"
     },
     "ALKLC": {
       "price": 78.4,
       "previousClose": 87.1,
       "changePct": -9.9885,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:46:00+00:00"
+      "marketTime": "2026-10-09T15:08:39+00:00"
     },
     "SVGYO": {
-      "price": 3.13,
+      "price": 3.2,
       "previousClose": 3.34,
-      "changePct": -6.2874,
+      "changePct": -4.1916,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:41:05+00:00"
+      "marketTime": "2026-10-09T15:09:43+00:00"
     },
     "EUPWR": {
-      "price": 50.05,
+      "price": 49.62,
       "previousClose": 49.98,
-      "changePct": 0.1401,
+      "changePct": -0.7203,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:54+00:00"
+      "marketTime": "2026-10-09T15:09:52+00:00"
     },
     "TMPOL": {
       "price": 96.85,
       "previousClose": 88.05,
       "changePct": 9.9943,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:06+00:00"
+      "marketTime": "2026-10-09T15:08:57+00:00"
     },
     "YKBNK": {
-      "price": 35.3,
+      "price": 35.44,
       "previousClose": 35.66,
-      "changePct": -1.0095,
+      "changePct": -0.6169,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:44+00:00"
+      "marketTime": "2026-10-09T15:09:58+00:00"
     },
     "ISVEA": {
-      "price": 27.76,
+      "price": 25.8,
       "previousClose": 27.9,
-      "changePct": -0.5018,
+      "changePct": -7.5269,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:55+00:00"
+      "marketTime": "2026-10-09T15:09:58+00:00"
     },
     "KARCL": {
       "price": 52.45,
       "previousClose": 47.7,
       "changePct": 9.9581,
       "currency": "TRY",
-      "marketTime": "2026-10-09T13:48:37+00:00"
+      "marketTime": "2026-10-09T15:08:34+00:00"
     }
   },
   "errors": {}

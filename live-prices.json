@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-11-04T15:00:01.801914+00:00",
+  "updatedAt": "2026-11-04T21:12:25.563871+00:00",
   "source": "Yahoo Finance",
   "prices": {
     "OZATD": {
@@ -8,35 +8,35 @@
       "previousClose": 140.0,
       "changePct": -10.0,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:06+00:00"
+      "marketTime": "2026-11-04T15:05:12+00:00"
     },
     "DSTKF": {
       "price": 68.85,
       "previousClose": 76.5,
       "changePct": -10.0,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:42:32+00:00"
+      "marketTime": "2026-11-04T15:05:10+00:00"
     },
     "TEHOL": {
       "price": 1.25,
       "previousClose": 1.38,
       "changePct": -9.4203,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:43:34+00:00"
+      "marketTime": "2026-11-04T15:09:31+00:00"
     },
     "PEKGY": {
       "price": 0.8,
       "previousClose": 0.73,
       "changePct": 9.589,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:43:07+00:00"
+      "marketTime": "2026-11-04T15:08:01+00:00"
     },
     "TRHOL": {
       "price": 140.1,
       "previousClose": 155.6,
       "changePct": -9.9614,
       "currency": "TRY",
-      "marketTime": "2026-11-04T10:55:06+00:00"
+      "marketTime": "2026-11-04T15:05:12+00:00"
     },
     "TERA": {
       "price": 10.64,
@@ -46,74 +46,74 @@
       "marketTime": "2026-10-27T15:05:12+00:00"
     },
     "SELEC": {
-      "price": 71.75,
+      "price": 72.15,
       "previousClose": 65.6,
-      "changePct": 9.375,
+      "changePct": 9.9848,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:53+00:00"
+      "marketTime": "2026-11-04T15:09:15+00:00"
     },
     "ANELE": {
-      "price": 5.83,
+      "price": 5.69,
       "previousClose": 6.05,
-      "changePct": -3.6364,
+      "changePct": -5.9504,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:54+00:00"
+      "marketTime": "2026-11-04T15:09:44+00:00"
     },
     "BIGEN": {
-      "price": 5.18,
+      "price": 5.12,
       "previousClose": 4.95,
-      "changePct": 4.6465,
+      "changePct": 3.4343,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:56+00:00"
+      "marketTime": "2026-11-04T15:09:34+00:00"
     },
     "ALKLC": {
-      "price": 18.06,
+      "price": 17.81,
       "previousClose": 17.46,
-      "changePct": 3.4364,
+      "changePct": 2.0046,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:55+00:00"
+      "marketTime": "2026-11-04T15:09:16+00:00"
     },
     "SVGYO": {
-      "price": 1.98,
+      "price": 1.93,
       "previousClose": 1.92,
-      "changePct": 3.125,
+      "changePct": 0.5208,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:21+00:00"
+      "marketTime": "2026-11-04T15:08:01+00:00"
     },
     "EUPWR": {
-      "price": 42.82,
+      "price": 43.02,
       "previousClose": 39.62,
-      "changePct": 8.0767,
+      "changePct": 8.5815,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:49+00:00"
+      "marketTime": "2026-11-04T15:09:29+00:00"
     },
     "TMPOL": {
-      "price": 50.7,
+      "price": 49.5,
       "previousClose": 49.02,
-      "changePct": 3.4272,
+      "changePct": 0.9792,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:57+00:00"
+      "marketTime": "2026-11-04T15:08:38+00:00"
     },
     "YKBNK": {
-      "price": 36.16,
+      "price": 35.88,
       "previousClose": 34.7,
-      "changePct": 4.2075,
+      "changePct": 3.4006,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:58+00:00"
+      "marketTime": "2026-11-04T15:09:48+00:00"
     },
     "ISVEA": {
-      "price": 13.33,
+      "price": 13.2,
       "previousClose": 12.7,
-      "changePct": 4.9606,
+      "changePct": 3.937,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:44:59+00:00"
+      "marketTime": "2026-11-04T15:09:45+00:00"
     },
     "KARCL": {
       "price": 28.6,
       "previousClose": 26.0,
       "changePct": 10.0,
       "currency": "TRY",
-      "marketTime": "2026-11-04T14:45:00+00:00"
+      "marketTime": "2026-11-04T15:08:01+00:00"
     }
   },
   "errors": {}

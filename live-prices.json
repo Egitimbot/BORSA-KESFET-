@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-11-10T15:21:54.960867+00:00",
+  "updatedAt": "2026-11-10T21:22:09.470921+00:00",
   "source": "Yahoo Finance",
   "prices": {
     "OZATD": {
@@ -8,28 +8,28 @@
       "previousClose": 91.9,
       "changePct": -9.9565,
       "currency": "TRY",
-      "marketTime": "2026-11-10T15:05:28+00:00"
+      "marketTime": "2026-11-10T15:09:41+00:00"
     },
     "DSTKF": {
       "price": 70.2,
       "previousClose": 72.1,
       "changePct": -2.6352,
       "currency": "TRY",
-      "marketTime": "2026-11-10T15:05:27+00:00"
+      "marketTime": "2026-11-10T15:09:02+00:00"
     },
     "TEHOL": {
       "price": 1.38,
       "previousClose": 1.26,
       "changePct": 9.5238,
       "currency": "TRY",
-      "marketTime": "2026-11-10T15:05:27+00:00"
+      "marketTime": "2026-11-10T15:09:10+00:00"
     },
     "PEKGY": {
       "price": 1.15,
       "previousClose": 1.05,
       "changePct": 9.5238,
       "currency": "TRY",
-      "marketTime": "2026-11-10T15:05:28+00:00"
+      "marketTime": "2026-11-10T15:08:01+00:00"
     },
     "TRHOL": {
       "price": 92.0,
@@ -50,7 +50,7 @@
       "previousClose": 72.5,
       "changePct": 10.0,
       "currency": "TRY",
-      "marketTime": "2026-11-10T14:59:40+00:00"
+      "marketTime": "2026-11-10T15:08:50+00:00"
     },
     "ANELE": {
       "price": 8.3,
@@ -85,21 +85,21 @@
       "previousClose": 44.6,
       "changePct": -10.0,
       "currency": "TRY",
-      "marketTime": "2026-11-10T15:05:28+00:00"
+      "marketTime": "2026-11-10T15:08:51+00:00"
     },
     "TMPOL": {
       "price": 56.7,
       "previousClose": 51.55,
       "changePct": 9.9903,
       "currency": "TRY",
-      "marketTime": "2026-11-10T15:05:28+00:00"
+      "marketTime": "2026-11-10T15:09:31+00:00"
     },
     "YKBNK": {
       "price": 38.48,
       "previousClose": 38.74,
       "changePct": -0.6711,
       "currency": "TRY",
-      "marketTime": "2026-11-10T15:05:28+00:00"
+      "marketTime": "2026-11-10T15:09:56+00:00"
     },
     "ISVEA": {
       "price": 19.31,
